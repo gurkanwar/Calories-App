@@ -10,7 +10,7 @@ import { HttpClient } from '@angular/common/http';
 })
 export class CalorieComponent implements OnInit {
 
-  contacts: Array<Calorie> = [];
+  calories: Array<Calorie> = [];
   contactParams: string;
   
 
